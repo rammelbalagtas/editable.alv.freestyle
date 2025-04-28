@@ -1,0 +1,37 @@
+{
+	"sap.app": {
+		"id": "sap.ui.comp.sample.filterbar.FilterBar",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui.comp.sample.filterbar.DynamicPageListReport.DynamicPageListReport",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.f": {},
+				"sap.ui.comp": {},
+				"sap.ui.core": {},
+				"sap.ui.fl": {},
+				"sap.ui.mdc": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"Component.js",
+					"DynamicPageListReport.controller.js",
+					"DynamicPageListReport.view.xml",
+					"manifest.json",
+					"model.json"
+				]
+			}
+		}
+	}
+}

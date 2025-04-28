@@ -1,0 +1,13 @@
+{
+  "name": "sap-ui-comp-sample-filterbar--dynamic-page-list-report",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: FilterBar in DynamicPage with a Table",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^4"
+  }
+}
