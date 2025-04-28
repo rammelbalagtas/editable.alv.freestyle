@@ -4,7 +4,8 @@ sap.ui.define(['sap/ui/core/UIComponent'],
 
 		return UIComponent.extend("sap.ui.comp.sample.filterbar.DynamicPageListReport.Component", {
 			metadata: {
-				manifest: "json"
+				//test
+				manifest: "json" 
 			}
 		});
 	});
